@@ -93,7 +93,7 @@ def plot_distribution_2D(n,l,m, (lo,hi), filename):
 
     cax = ax.imshow(z, origin='lower',
                     extent=[x.min(), x.max(), y.min(), y.max()],
-                    aspect='auto', cmap=cm.coolwarm)
+                    aspect='auto', cmap=plt.get_cmap('Greys'))
 
     ax.set_yticks([0., .25*np.pi, .5*np.pi, .75*np.pi, np.pi])
     ax.set_yticklabels(['$0$', r'$\frac{\pi}{4}$', r'$\frac{\pi}{2}$', r'$\frac{3\pi}{4}$', r'$\pi$'])
