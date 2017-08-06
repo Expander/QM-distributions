@@ -115,5 +115,5 @@ def plot_distribution_2D(n,l,m, (lo,hi), filename):
     plt.close(fig)
 
 plot_distribution_1D(1,0,0, (0,4) , 'Impulsverteilungen_H-Atom_n-1.pdf')
-plot_distribution_1D(2,0,0, (0,4) , 'Impulsverteilungen_H-Atom_n-2_l-0.pdf')
+plot_distribution_1D(2,0,0, (0,2) , 'Impulsverteilungen_H-Atom_n-2_l-0.pdf')
 plot_distribution_2D(2,1,0, (0,2) , 'Impulsverteilungen_H-Atom_n-2_l-1.pdf')
