@@ -56,7 +56,7 @@ def plot_distribution_1D(n,l,m, (lo,hi), filename):
     plt.plot(px, [distr(p,0,n,l,m) for p in px], 'k-')
     plt.xlabel(r'$p\cdot a/\hbar$')
     plt.ylabel(r'$w_{' + str(n) + str(l) + str(m) + r'}(p)$')
-    plt.title(r'Impulsverteilung im H-Atom $(n=' + str(n) +  r',l=' + str(l) +  r',m=' + str(m) +  r')$')
+    plt.title(r'Impulsverteilung im H-Atom $(n=' + str(n) +  r',l=' + str(l) +  r',m=' + str(m) +  r')$', fontsize=11)
 
     ax.set_xlim([lo,hi])
     ax.set_ylim(bottom=0)

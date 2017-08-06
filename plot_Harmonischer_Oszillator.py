@@ -37,7 +37,7 @@ def plot_distribution(n, (lo,hi), filename):
     plt.plot(px, [mom_distribution(p,n) for p in px], 'k-')
     plt.xlabel(r'$p / \sqrt{m\omega\hbar}$')
     plt.ylabel(r'$w_{' + str(n) + r'}(p)$')
-    plt.title(r'Impulsverteilung im harmonischen Oszillator $(n=' + str(n) +  r')$')
+    plt.title(r'Impulsverteilung im harmonischen Oszillator $(n=' + str(n) +  r')$', fontsize=11)
 
     ax.set_xlim([lo,hi])
     ax.set_ylim(bottom=0)

@@ -49,7 +49,7 @@ def plot_distribution(n, (lo,hi), filename):
     plt.plot(px/unit, [mom_distribution(p,n)*unit for p in px], 'k-')
     plt.xlabel(r'$p\cdot L/\hbar$')
     plt.ylabel(r'$w_{' + str(n) + r'}(p)\cdot L/\hbar$')
-    plt.title(r'Impulsverteilung im Potentialtopf $(n=' + str(n) +  r')$')
+    plt.title(r'Impulsverteilung im Potentialtopf $(n=' + str(n) +  r')$', fontsize=11)
 
     ax.set_xlim([lo,hi])
     ax.set_ylim(bottom=0)
